@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iot.Assignment.Data", "Iot.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iot.Assignment.Api", "Iot.Assignment.Api\Iot.Assignment.Api.csproj", "{B35876B6-A80B-402D-AAFC-D1BC54001389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Assignment.Infrastructure", "Iot.Assignment.Infastructure\Iot.Assignment.Infrastructure.csproj", "{6640F33A-B1D1-4F49-9B28-5DA4F4C7B60E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B35876B6-A80B-402D-AAFC-D1BC54001389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B35876B6-A80B-402D-AAFC-D1BC54001389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B35876B6-A80B-402D-AAFC-D1BC54001389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6640F33A-B1D1-4F49-9B28-5DA4F4C7B60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6640F33A-B1D1-4F49-9B28-5DA4F4C7B60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6640F33A-B1D1-4F49-9B28-5DA4F4C7B60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6640F33A-B1D1-4F49-9B28-5DA4F4C7B60E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
