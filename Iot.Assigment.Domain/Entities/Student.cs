@@ -12,11 +12,11 @@ public class Student: FullEntityBase<Guid>
     public string FistName { get; set; }
     public string LastName { get; set; }
     public DateTimeOffset DateOfBirth { get; set; }
-    public GendersType Gender { get; set; }
-    public AddressValueObject Address { get; set; }
-    public string Email { get; set; }
-    public string NumberPhone { get; set; }
-    public virtual Classes Classes { get; set; }
+    public GendersType? Gender { get; set; }
+    public AddressValueObject? Address { get; set; }
+    public string? Email { get; set; }
+    public string? NumberPhone { get; set; }
+    public virtual ICollection<Classes> Classes { get; set; }
     public virtual Scores Scores { get; set; }
 
 }
